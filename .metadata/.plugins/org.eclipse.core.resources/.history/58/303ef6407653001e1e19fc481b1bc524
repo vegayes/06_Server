@@ -1,0 +1,42 @@
+package edu.kh.servlet.controller;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/signUp")
+public class SignUpController extends HttpServlet{
+	
+	// POST 요청 처리 메서드 오버라이딩
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		// 전달받은 값을 얻어와서 확인
+		// -> 한글이 깨지는 문제 발생! 
+		// why? 요청데이터의 문자 인코딩
+		//      서버의 문자 인코딩이 같지 않아서.. 
+		
+		// 해결방법 :: 전달받은 데이터의 문자 인코딩을 서버에 맞게 변경
+		req.setCharacterEncoding("UTF-8");
+		
+		String inputId = req.getParameter("inputId");
+		String inputPw = req.getParameter("inputPw");
+		String inputName = req.getParameter("inputName");
+		String intro  = req.getParameter("intro");
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+
+}

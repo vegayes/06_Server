@@ -1,0 +1,43 @@
+package edu.kh.servlet.controller;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+//Servlet 관련 코드를 작성하기 위해서 HttpServlet 클래스 상속을 받아야 함.
+
+/* @Override
+ 	어노테이션 : 컴파일러가 읽는 주석
+ 	
+   @WebServlet 어노테이션
+   => 해당 클래스를 Servlet 등록하고 
+      매핑할 주소를 연결하라고 지시하는 어노테이션
+   => 서버 실행 시 자동으로 web.xml에 <servlet><servlet-mapping>
+ */
+
+
+
+
+//
+@WebServlet("/example2")
+public class ExampleController2 extends HttpServlet{
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

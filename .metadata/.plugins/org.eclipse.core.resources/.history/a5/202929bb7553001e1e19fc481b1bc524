@@ -1,0 +1,35 @@
+package edu.kh.servlet.controller;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/signUp")
+public class SignUpController extends HttpServlet{
+	
+	// POST 요청 처리 메서드 오버라이딩
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		// 전달받은 값을 얻어와서 확인
+		// -> 한글이 깨지는 문제 발생! 
+		// why? 요청데이터의 문자 인코딩
+		String id = req.getParameter("inputId");
+		String pw = req.getParameter("inputId");
+		String name = req.getParameter("inputId");
+		String  = req.getParameter("inputId");
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+
+}

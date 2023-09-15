@@ -1,0 +1,36 @@
+package edu.kh.servlet.controller;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/signUp")
+public class SignUpController extends HttpServlet{
+	
+	// POST 요청 처리 메서드 오버라이딩
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		super.doPost(req, resp);
+	}
+	
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+	
+		String id = req.getParameter("inputId");
+		String pw = req.getParameter("inputId");
+		String name = req.getParameter("inputId");
+		String id = req.getParameter("inputId");
+	
+	
+	}
+	
+	
+	
+
+}
