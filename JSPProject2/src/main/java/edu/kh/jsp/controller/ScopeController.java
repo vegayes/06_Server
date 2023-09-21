@@ -64,10 +64,4 @@ public class ScopeController extends HttpServlet{
 			dispatcher.forward(req, resp);
 			
 		}
-	
-	
-	
-	
-	
-
 }

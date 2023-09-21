@@ -27,6 +27,31 @@
 	</head>
 	<body>
 	
+	    <%-- 상대경로 : 현재 경로가 중요함! 
+	    	 현재 경로 : localhost:8000/jstl/contiditon --%>
+		<a href="condition">JSTL을 이용한 조건문(if / choose, when, otherwise)</a>
+		
+		<br>
+		<a href="loop">JSTL을 이용한 반복문(loop)</a>
+		
+		<br>
+		<a href="student/selectAll">workbook에서 학생 전체 조회하기<a>
+		
+		
+		<br>
+		<a href = "student/selectArch">건축공학과인 학생만 찾아라</a>
+		
+		
+		<br>
+		<br>
+		<br>입력한 학과명의 학생 정보 찾기
+		
+		<form action = "student/inputSelect" method="post">
+			학과명 입력 : <input name ="deptName">
+			<button>찾기</button>
+		</form>
+		
+	
 		<h1>JSTL(Jsp Standard Tag Library, JSP 표준 태그 라이브러리)</h1>
 	
 		<pre>
@@ -141,50 +166,6 @@
 		<br>
 		
 		html 태그 해석 O : <c:out value="${temp}" escapeXml = "false"/>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	</body>
 </html>

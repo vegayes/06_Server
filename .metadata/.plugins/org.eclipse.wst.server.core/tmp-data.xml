@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <temp-directories>
-  <temp-directory age="0" key="Servlet Server" path="tmp0" recycle="false"/>
-  <temp-directory age="0" key="JSP Project2 Server" path="tmp1" recycle="false"/>
+  <temp-directory age="0" key="Server1" path="tmp0" recycle="false"/>
+  <temp-directory age="0" key="Server2" path="tmp1" recycle="false"/>
+  <temp-directory age="0" key="boardPr Server" path="tmp2" recycle="false"/>
 </temp-directories>

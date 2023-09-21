@@ -18,7 +18,7 @@
 			<li> \${parmaValues.name속성값[인덱스]} : name이 일치하는 파라미터 중 지정된 인덱스번째 value </li>
 		</ul>
 		
-		<p>
+
 		 	이름 : ${param.inputName } <br>
 			나이 : ${param.inputAge } <br>
 			
@@ -91,15 +91,6 @@
 		
 		${empty list1} / ${empty list2}
 		<%-- 둘다 true로 비어있는 값으로 인식함.  --%>
-			
-		
-		
-		
-		
-	
-	
-	
-	
-	
+
 	</body>
 </html>

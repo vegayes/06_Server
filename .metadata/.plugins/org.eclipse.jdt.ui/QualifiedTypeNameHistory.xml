@@ -2,13 +2,28 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="edu.kh.jsp.model.dto.Pizza"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="edu.kh.jsp.model.dto.Book"/>
     <fullyQualifiedTypeName name="javax.print.attribute.HashPrintRequestAttributeSet"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="edu.kh.jsp.model.dto.Book"/>
+    <fullyQualifiedTypeName name="java.beans.Statement"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="edu.kh.jsp.student.model.service.StudentService"/>
+    <fullyQualifiedTypeName name="edu.kh.jsp.student.model.dao.StudentDAO"/>
+    <fullyQualifiedTypeName name="edu.kh.jsp.student.model.dao.ArchStudentDAO"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="edu.kh.jsp.student.model.service.ArchStudentService"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
     <fullyQualifiedTypeName name="javax.servlet.annotation.WebServlet"/>
-    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="edu.kh.jsp.student.model.dto.Student"/>
+    <fullyQualifiedTypeName name="edu.kh.jsp.student.model.service.InputStudentService"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="edu.kh.jsp.student.model.dao.InputStudentDAO"/>
+    <fullyQualifiedTypeName name="edu.kh.jsp.common.JDBCTemplete"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
 </qualifiedTypeNameHistroy>
