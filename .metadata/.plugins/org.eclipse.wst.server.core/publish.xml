@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <publish-info>
   <server id="Server1" path="publish2.dat"/>
-  <server id="boardPr Server" path="publish6.dat"/>
   <server id="Server2" path="publish5.dat"/>
+  <server id="boardPr Server" path="publish6.dat"/>
 </publish-info>

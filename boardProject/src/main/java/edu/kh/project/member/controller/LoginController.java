@@ -47,7 +47,7 @@ public class LoginController extends HttpServlet {
 				session.setAttribute("loginMember", loginMember);
 				
 				// session 만료 시간 지정 (초단위 지정)
-				 session.setMaxInactiveInterval(5);
+				 session.setMaxInactiveInterval(60*60);
 				
 				 
 				 resp.sendRedirect("/"); // 메인 페이지 재요청 ( 이거때문에 메인페이지로 다시 돌아옴  원래는 버튼 누르면 /member/login으로 이동했어야 함
@@ -65,7 +65,17 @@ public class LoginController extends HttpServlet {
 				 
 			}else { // 실패
 				
+				// 로그인 실패 메시지를 session에 추가
+				session.setAttribute("message", "아이디 또는 비밀번호가 일치하지 않습니다.");
 				
+				// 현재 요청 이전 페이지로 redirect
+				String referer = req.getHeader("referer");
+				// referer => 각 페이지 방문시 남는 흔적을 말함
+				// request.getHeader() : 안에 파라미터로 referer 전달 시 이전페이지 주소값 반환.
+				// http://localhost:8080/
+				
+				System.out.println(referer);
+				resp.sendRedirect(referer);
 				
 			}
 			

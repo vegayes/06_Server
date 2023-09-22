@@ -55,6 +55,7 @@
 		<c:forEach var = "i" begin ="1" end = "6" step = "1">
 		     <%-- 1부터 6까지 1씩 증가 반복문 --%>
 			<h${i}> 현재 i값 값 : ${i}  </h${i}>
+			
 		</c:forEach>
 	
 

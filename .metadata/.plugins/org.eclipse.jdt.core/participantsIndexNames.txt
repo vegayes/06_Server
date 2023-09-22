@@ -11,6 +11,8 @@ C:\workspace\06_Server\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\397
 \JSPProject2\src\main\java
 C:\workspace\06_Server\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2186370130.index
 \JSPProject2\src\main\java
+C:\workspace\06_Server\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\800025748.index
+\boardProject\src\main\java
 C:\workspace\06_Server\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3955742525.index
 \JSPProject2\src\main\java
 C:\workspace\06_Server\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2210145245.index

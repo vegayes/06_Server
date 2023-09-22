@@ -40,8 +40,6 @@ public class SelectArchController extends HttpServlet{
 		//요청 위임!
 		req.getRequestDispatcher("/WEB-INF/views/student/selectArch.jsp").forward(req, resp);
 		
-		
-		
 	}
 	
 

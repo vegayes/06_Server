@@ -79,13 +79,14 @@
 					<%--로그인이 되었을 때  --%>
 					<c:otherwise>
 						<artice class="login-area"> 
-							<a> 
-								<img src="/resources/images/user.png">
+							<a href ="#"> 
+								<img src="/resources/images/user.png" id = "memberProfile">
 							</a>
 
 							<div class="my-info">
 								<div>
-									<a href="#" id="nickname"></a> <a href="#" id="logoutBtn">로그아웃</a>
+									<a href="#" id="nickname">${sessionScope.loginMember.memberNickName}</a> 
+									<a href="/member/logout" id="logoutBtn">로그아웃</a>
 								</div>
 	
 								<p></p>
